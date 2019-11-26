@@ -1,0 +1,50 @@
+\documentclass{beamer}
+
+\usepackage[spanish]{babel}
+\decimalpoint 
+\usepackage[utf8]{inputenc}
+
+\usepackage{ragged2e} \justifying
+\usepackage{booktabs}
+\usepackage{bm}
+\usepackage{xfrac}
+\usepackage{import}
+\usepackage[font=scriptsize,labelfont=bf,justification=centerlast]{caption}
+
+\usetheme[sectionpage=progressbar,numbering=none,progressbar=frametitle]{metropolis}
+\title{PROGRAMACIÓN CON PYTHON}
+
+\subtitle{Un Enfoque Hacia Ingenierías}
+
+\institute{UNIVERSIDAD ANÁHUAC MÉXICO}
+\author{Rafael Torres Escobar, Ph.D.}
+\date[Anáhuac México]{}
+
+
+ \AtBeginSection[] % Do nothing for \section* %
+{
+\begin{frame}<beamer> 
+  \frametitle{Agenda}
+  \tableofcontents[currentsection] 
+\end{frame}
+}
+
+
+
+\begin{document}
+\begin{frame}
+  \maketitle
+\end{frame}
+
+
+     \begin{frame}{Agenda}
+   \tableofcontents
+ \end{frame}
+
+
+
+
+%\import{DisenioBloques/}{slides}
+% \import{FactorialDesigns/}{slides}
+%\import{Factorial-2k/}{slides}
+\end{document}
